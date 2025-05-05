@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fake-news-pipeline
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: fake-news
+  template:
+    metadata:
+      labels:
+        app: fake-news
+    spec:
+      containers:
+      - name: pipeline
+        image: fake-news-pipeline
+        imagePullPolicy: IfNotPresent

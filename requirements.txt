@@ -1,0 +1,51 @@
+# -------------------------------
+# Python Library Requirements
+# With Descriptions and Installation Instructions
+# -------------------------------
+
+# ✅ Built-in modules – already included in Python, no installation needed
+
+# 1. re — Regular expressions (text pattern matching)
+# 2. os — Interacting with the operating system (files, paths)
+# 3. sqlite3 — Lightweight SQL database engine (built into Python)
+# 4. subprocess — Run external programs and shell commands
+
+# ✅ Libraries you must install using pip:
+
+# 5. pandas — High-level data manipulation and analysis
+# -- pip install pandas
+pandas>=1.3.0
+
+# 6. numpy — Core numerical computing library for arrays and math
+# -- pip install numpy
+numpy>=1.21.0
+
+# 7. nltk — Natural Language Toolkit for NLP (tokenization, stopwords, etc.)
+# -- pip install nltk
+nltk>=3.6.2
+
+# 8. sqlalchemy — Database ORM/engine to work with SQL databases using Python
+# -- pip install sqlalchemy
+sqlalchemy>=1.4.15
+
+# 9. scikit-learn — Machine learning tools (e.g., TfidfVectorizer, StandardScaler)
+# -- pip install scikit-learn
+scikit-learn>=0.24.2
+
+# 10. transformers — HuggingFace library for pretrained NLP models (like BERT)
+# -- pip install transformers
+transformers>=4.0.0
+
+# 11. torch — PyTorch, the deep learning backend for transformers
+# -- pip install torch
+torch>=1.9.0
+
+# 12. tqdm — Visually track progress of loops and long-running tasks
+# -- pip install tqdm
+tqdm>=4.60.0
+
+# ✅ Functional modules used (imported from installed libraries)
+
+# 13. from nltk.corpus import stopwords — Stopword list for NLP
+# 14. from nltk.tokenize import sent_tokenize — Sentence tokenizer
+# 15. from sklearn.preprocessing import StandardScaler — Normalize/standardize data
