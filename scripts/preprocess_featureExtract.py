@@ -81,8 +81,8 @@ read_fake_file = os.path.join(base_path_read, "Fake.csv")
 read_true_file = os.path.join(base_path_read, "True.csv")
 
 # Load the fake and true news datasets into a pandas dataframe
-df_fake = pd.read_csv(read_fake_file)
-df_true = pd.read_csv(read_true_file)
+df_fake = pd.read_csv(read_fake_file, rows=500)
+df_true = pd.read_csv(read_true_file, rows=500)
 
 # Add a label fake/true for each news
 df_fake["label"] = "fake"
